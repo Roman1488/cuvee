@@ -1,0 +1,28 @@
+$link-hover-color: inherit;
+$link-hover-decoration: none;
+$font-size-root: 17px;
+$font-family-base: "Gotham SSm A", "Gotham SSm B";
+$gray: #5F5954;
+$aqua: #4B95AD;
+$laghtGray: #F6F7F8;
+$grid-gutter-width-base:     30px;
+$grid-gutter-widths: (
+        xs: $grid-gutter-width-base,
+        sm: $grid-gutter-width-base,
+        md: $grid-gutter-width-base,
+        lg: 30px,
+        xl: 60px
+);
+$fontBold: 600;
+$fontSemiBold: 500;
+$fontBook: 200;
+/*
+$thin: 100;
+$extraLight: 200;
+$book: 300;
+$normal: 400;
+$medium: 500;
+$semiBold: 600;
+$bold: 700;
+$extraBold: 800;
+$black: 900;*/

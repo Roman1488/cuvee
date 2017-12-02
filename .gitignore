@@ -1,0 +1,4 @@
+.idea/
+wp-content/themes/cuvee/front-end/node_modules
+wp-content/cache
+wp-content/cache/*

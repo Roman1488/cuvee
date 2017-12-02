@@ -1,0 +1,147 @@
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+  .quote-wrapper {
+    padding:35px 15px;
+  }
+  .article-title {
+    padding: 20px;
+  }
+  .team-list {
+
+    .team-member {
+
+      &__info {
+        order: 2;
+      }
+      &__name {
+        text-align: center;
+      }
+      &__photo {
+        order: 1;
+
+        img {
+          margin-left: auto !important;
+          margin-right: auto !important;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+  .events {
+    padding-bottom: 30px;
+  }
+  .event-item {
+    margin-bottom: 25px;
+  }
+  .contact-info {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .social {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .header {
+
+    &__menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 15px;
+      background-color: rgba(57, 131, 155, .9);
+      right: 15px;
+      z-index: 2;
+      border-top: 1px solid #fff;
+
+      ul li {
+        float: none;
+        padding: 10px 0;
+      }
+    }
+    .menu-btn {
+      display: block;
+    }
+  }
+
+  .post-image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .page-template-page-about {
+    .page-head {
+
+      &__content {
+        padding-right: 0;
+      }
+    }
+  }
+  .the_content {
+
+    &--small {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-event {
+    &__image {
+      object-fit: cover;
+    }
+    &__desc {
+      padding: 20px 10px 30px 30px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .contact-info {
+    &__address {
+      white-space: normal;
+    }
+  }
+  .contact-section .info .contact-info {
+    padding: 10px 15px;
+  }
+  .services-list{
+    .services-item {
+      padding: 33px 15px;
+    }
+  }
+  .contact-form {
+    span:nth-of-type(1),
+    span:nth-of-type(2),
+    span:nth-of-type(3),
+    span:nth-of-type(4) {
+      width: 100%;
+    }
+    span:nth-of-type(2),
+    span:nth-of-type(4) {
+      float: none;
+    }
+  }
+}
